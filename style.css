@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: chocolate;
+    text-align: center;
+}
+h1 {
+    position: absolute;
+    top: 7rem;
+    color: #fff;
+    font-size: 3rem;
+}
+#app {
+    /* margin:  0 auto; */
+    background: #fff;
+    width: 80vw;
+    border-radius: 12px;
+    padding: 50px;
+    box-shadow: 2px 2px  2px rgb(0, 0, 0, .3);
+}
+blockquote {
+    font-size: 1.6rem;
+}
+cite > small {
+    font-size: 1rem;
+}
+#time, .buttons {
+    margin-top: 64px;
+}
+#time > span {
+    font-size: 4rem;
+}
+
+ button {
+    padding: 10px;
+    font-weight: 400;
+    outline: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: .5s;
+}
+button:hover {
+    background: rgb(202, 128, 75);
+}
+button#start {
+    background: #fff;
+    color: chocolate;
+    border: 1px solid chocolate;
+}
+
+button#stop {
+    background: chocolate;
+    color: #fff;
+    border: 1px solid chocolate;
+}
