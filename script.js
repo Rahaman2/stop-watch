@@ -46,7 +46,7 @@ function startWatch() {
     }, 60000);
 
     setInterval(() => {
-        if(seconds.textContent == 59 && minutes.textContent == 59) {
+        if(seconds.textContent == "59" && minutes.textContent == "59") {
             setTimeout(() => {
                 if (hours.textContent < 9) {
                     hours.textContent = "0" + eval(parseInt(hours.textContent) + 1);
